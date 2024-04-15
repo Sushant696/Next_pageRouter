@@ -6,7 +6,14 @@ function Navbar() {
     <div>
       <ul>
         <li>
-          <Link href={"/cars"}>cars</Link>
+          <Link href={{
+            pathname:"/about",
+            // query: {
+            //   name :"sushant babu prasai.",
+            //   age : '222322'
+            // }
+
+          }}>cars</Link>
         </li>
         <li>
           <Link href={"/cars/lambo"}>about</Link>
