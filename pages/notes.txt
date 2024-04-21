@@ -1,0 +1,4 @@
+The content returned by the page file inside of pages folder is sent to client and not anything more, 
+and the component inside of the index.tsx or page.tsx in (app router the latest) it have to be the default else the content will not returned
+
+for private folder just make use of underscore infront of the file name (_) (%5F can also be used instead of underscore) or folder name and your file or folder is hidden or is private
